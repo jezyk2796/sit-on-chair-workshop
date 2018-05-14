@@ -6,11 +6,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sit on chair</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
-
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>sit <span class="green-text">on</span> chair</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">o firmie</a>
+                        <ul>
+                            <li>
+                                <div class="triangle"></div> <a href="#">Aktualności</a></li>
+                            <li><a href="#">Nasz team</a></li>
+                            <li><a href="#">Historia</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">galeria</a>
+                        <ul>
+                            <li>
+                                <div class="triangle"></div><a href="#">Historia</a></li>
+                            <li><a href="#">Aktualności</a></li>
+                            <li><a href="#">Nasz team</a></li>
+                            <li><a href="#">Aktualności</a></li>
+                            <li><a href="#">Nasz team</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">kontakt</a>
+                        <ul>
+                            <li>
+                                <div class="triangle"></div><a href="#">Nasz team</a></li>
+                            <li><a href="#">Aktualności</a></li>
+                            <li><a href="#">Nasz team</a></li>
+                            <li><a href="#">Historia</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="first-section">
+        <div class="container">
+            <div class="arrow-box left">
+                <span class="arrow">&lt;</span>
+            </div>
+            <div class="black-chair"></div>
+            <div class="chair-description">
+                <h2>sit <span class="green-text">on</span> our <span class="green-text">chair</span></h2>
+                <p class="description">
+                    Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.
+                </p>
+                <div class="button">zobacz więcej</div>
+            </div>
+            <div class="arrow-box right">
+                <span class="arrow">&gt;</span>
+            </div>
+        </div>
+    </section>
+    <section id="second-section">
+        <div class="container">
+            <div class="tile-photo chair">
+                <div class="photo-title">
+                    <span>Chair CLAIR</span>
+                </div>
+            </div>
+            <div class="tile-photo baby">
+                <div class="photo-title">
+                    <span>Chair MARGARITA</span>
+                </div>
+            </div>
+            <div class="tile-text">
+                <span>Finds all inputs</span>
+                <p>
+                    Finds all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click events have been linked.
+                </p>
+                <p>
+                    Notice there is no change when clicking the checkboxes sinco no click events have been
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="third-section">
+        <div class="container">
+            <h3 class="section-title">cennik</h3>
+            <div class="price-box float-left-box">
+                <div class="outer-circle">
+                    <div class="inner-circle"></div>
+                </div>
+                <div class="option-title green-text">basic plan</div>
+                <div class="price-circle">
+                    <span class="big-numbers">85</span><span class="small-numbers">99</span> <span class="currency-per-month">pln/msc</span>
+                </div>
+                <span class="price-option option-color-one option-margin">Zakup towaru + dowóz</span>
+                <span class="price-option option-color-two">Serwis</span>
+                <div class="price-button">
+                    dołącz
+                </div>
+            </div>
+            <div class="price-box float-left-box center-box">
+                <div class="outer-circle outer-circle-center">
+                    <div class="inner-circle inner-circle-center"></div>
+                </div>
+                <div class="option-title white-text">standard plan</div>
+                <div class="price-circle circle-non-border">
+                    <span class="green-text"><span class="big-numbers">95</span><span class="small-numbers">99</span> <span class="currency-per-month">pln/msc</span></span>
+                </div>
+                <span class="price-option center-width option-color-three option-margin-center">Zakup towaru + dowóz</span>
+                <span class="price-option center-width option-color-four">Serwis</span>
+                <span class="price-option center-width option-color-three">Gwarancja 5 lat</span>
+                <div class="price-button price-button-center">
+                    dołącz
+                </div>
+            </div>
+            <div class="price-box">
+                <div class="outer-circle">
+                    <div class="inner-circle"></div>
+                </div>
+                <div class="option-title green-text">advance plan</div>
+                <div class="price-circle">
+                    <span class="big-numbers big-num-right-circ">211</span><span class="small-numbers small-num-right-circ">00</span> <span class="currency-per-month">pln/msc</span>
+                </div>
+                <span class="price-option option-color-one option-margin">Zakup towaru + dowóz</span>
+                <span class="price-option option-color-two">Serwis</span>
+                <span class="price-option option-color-one">Gwarancja 6 lat</span>
+                <span class="price-option option-color-two">Porady projektanta</span>
+                <div class="price-button">
+                    dołącz
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-four">
+        <div class="container">
+            <form>
+                <legend class="section-title">kontakt</legend>
+                <input class="personal-data form-style" type="text" placeholder="Imię" name="name">
+                <input class="personal-data form-style" type="email" placeholder="email" name="email">
+                <input class="message-box form-style" type="text" placeholder="Wiadomość" name="message">
+                <div class="red-chair"></div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox" name="agreement" checked>
+                    <label for="checkbox">
+                        Zgadzam się na przetwarzanie danych osobowych
+                    </label>
+                </div>
+                <input type="submit" value="wyślij" id="form-button" name="submit">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                Copyright 2014 | All Rights Reserved. - Sit On Chair
+            </p>
+            <div class="social-links">
+                <a href="#"><img src="images/flickr.png"></a>
+                <a href="#"><img src="images/vimeo.png"></a>
+                <a href="#"><img src="images/pinterest.png"></a>
+                <!-- nie jestem pewny czy mogłem umieścić img w <a>.. -->
+                <a href="#"><img src="images/twitter.png"></a>
+            </div>
+            <h6>sit <span>on</span> chair</h6>
+        </div>
+    </footer>
 </body>
 
 </html>
